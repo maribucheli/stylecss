@@ -64,3 +64,66 @@ align-items: center;
     right: 20%; 
 
 }
+
+.nariz {
+background-color: yellow;
+ width: 0;
+ height: 0;
+ border-left: 50px solid transparent;
+ border-right: 50px solid transparent;
+ border-top: 50px solid #000;
+ position: absolute;
+bottom: 40%;
+right: 40%;
+ 
+}
+
+.boca {
+
+background-color: rgb(0, 0, 0);
+width: 300px;
+height: 25px;  
+position: absolute;
+bottom: 25%;
+right: 25%;
+}
+
+.lengua {
+
+background-color: rgb(255, 0, 0);
+width: 100px;
+height: 50px;  
+border-radius: 0 0 100px 100px;
+position: absolute;
+bottom: 12%;
+right: 30%; 
+
+}
+
+
+.oreja {
+
+background-color: transparent;
+width: 0;
+height: 0;
+border-left: 100px solid transparent;
+border-right: 100px solid transparent;
+border-bottom: 50px solid yellow;
+position: absolute;
+
+
+}
+
+#orejaIzq {
+
+top: -5%;
+left: 10%;
+transform: rotate(-18deg); 
+}
+
+#orejaDer {
+
+top: -5%;
+right: 10%;
+transform: rotate(18deg); 
+}
