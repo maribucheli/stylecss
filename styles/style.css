@@ -1,129 +1,110 @@
 body {
-
     background-color: rgb(255, 89, 0);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 h1 {
-    color: rgb(246, 214, 35)
+    color: rgb(246, 214, 35);
 }
+
 
 div {
-    background-color: rgb(35, 237, 106);
-    width: 80vw; 
-}
-
-.div1 {
-    background-color: rgb(27, 185, 228);
-}
-
-#divUnico {
-
-    background-color: azure;
+    box-sizing: border-box;
 }
 
 #dibujo {
-width: 40vw; 
-height: 40vh;
-background-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #cara {
-    width: 60%;
+    width: 70%;
     height: 70%;
     background-color: yellow;
-    padding-left: auto;
     border-radius: 50%;
     position: relative;
-    
 }
 
-.ojos {
 
-    width: 15%;
-    height: 15%;
-    background-color: rgb(0, 0, 0);
+.ojos {
+    width: 12%;
+    height: 12%;
+    background-color: black;
     border-radius: 50%;
     position: absolute;
-
 }
 
 #ojoIzq {
-
-        top: 20%; 
-        left: 20%; 
-
+    top: 25%;
+    left: 22%;
 }
 
 #ojoDer {
-
-    top: 20%; 
-    right: 20%; 
-
+    top: 25%;
+    right: 22%;
 }
+
 
 .nariz {
-background-color: yellow;
- width: 0;
- height: 0;
- border-left: 50px solid transparent;
- border-right: 50px solid transparent;
- border-top: 50px solid #000;
- position: absolute;
-bottom: 40%;
-right: 40%;
- 
+    width: 0;
+    height: 0;
+    border-left: 8% solid transparent;
+    border-right: 8% solid transparent;
+    border-top: 10% solid black;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
 
 .boca {
-
-background-color: rgb(0, 0, 0);
-width: 300px;
-height: 25px;  
-position: absolute;
-bottom: 25%;
-right: 25%;
+    background-color: black;
+    width: 45%;
+    height: 6%;
+    position: absolute;
+    bottom: 28%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
+
 .lengua {
-
-background-color: rgb(255, 0, 0);
-width: 100px;
-height: 50px;  
-border-radius: 0 0 100px 100px;
-position: absolute;
-bottom: 12%;
-right: 30%; 
-
+    background-color: red;
+    width: 20%;
+    height: 12%;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
 .oreja {
-
-background-color: transparent;
-width: 0;
-height: 0;
-border-left: 100px solid transparent;
-border-right: 100px solid transparent;
-border-bottom: 50px solid yellow;
-position: absolute;
-
-
+    width: 0;
+    height: 0;
+    border-left: 15% solid transparent;
+    border-right: 15% solid transparent;
+    border-bottom: 12% solid yellow;
+    position: absolute;
 }
 
 #orejaIzq {
-
-top: -5%;
-left: 10%;
-transform: rotate(-18deg); 
+    top: -8%;
+    left: 15%;
+    transform: rotate(-20deg);
 }
 
 #orejaDer {
-
-top: -5%;
-right: 10%;
-transform: rotate(18deg); 
+    top: -8%;
+    right: 15%;
+    transform: rotate(20deg);
 }
