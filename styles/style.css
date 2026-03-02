@@ -38,9 +38,14 @@ align-items: center;
     padding-left: auto;
     border-radius: 50%;
     position: relative;
+    transition: all 2s ease-in-out; 
     
 }
 
+#cara:hover {
+
+    transform: rotate(180deg); 
+}
 .ojos {
 
     width: 15%;
@@ -55,7 +60,17 @@ align-items: center;
 
         top: 20%; 
         left: 20%; 
+        transition: all 5s ease-in-out; 
 
+}
+
+#ojoIzq:hover {
+    background-color: yellow;
+	border-bottom: 50px solid green;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
 }
 
 #ojoDer {
@@ -95,11 +110,16 @@ width: 15%;
 height: 20%;  
 border-radius: 0 0 100px 100px;
 position: absolute;
-bottom: 5%;
+top: 75%; 
 right: 30%; 
-
+transition: all 2s ease-in-out; 
 }
 
+.lengua:hover {
+
+background-color: pink;    
+height: 30%;
+}
 
 .oreja {
 
