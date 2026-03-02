@@ -74,7 +74,7 @@ background-color: yellow;
  border-top: 30px solid pink;
  position: absolute;
 bottom: 40%;
-right: 40%;
+right: 45%;
  
 }
 
@@ -106,9 +106,9 @@ right: 30%;
 background-color: transparent;
 width: 0;
 height: 0;
-border-left: 40px solid transparent;
-border-right: 40px solid transparent;
-border-bottom: 50px solid yellow;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 60px solid yellow;
 position: absolute;
 
 
@@ -116,14 +116,14 @@ position: absolute;
 
 #orejaIzq {
 
-top: -15%;
+top: -5%;
 left: 20%;
 transform: rotate(-18deg); 
 }
 
 #orejaDer {
 
-top: -15%;
+top: -5%;
 right: 20%;
 transform: rotate(18deg); 
 }
