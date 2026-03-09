@@ -5,8 +5,11 @@ body {
 
 
 h1 {
-    color: rgb(246, 214, 35)
+    color: rgb(246, 214, 35); 
+    cursor: pointer; 
 }
+
+
 
 div {
     background-color: rgb(35, 237, 106);
